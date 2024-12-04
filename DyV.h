@@ -7,7 +7,8 @@
 
 // float epsilon = 1e-6;
 
-int busquedaBinaria(int x, std::vector<int> &v, int ini, int fin){
+template <typename T>
+int busquedaBinaria(T x, std::vector<T> &v, int ini, int fin){
 
         if (ini > fin)
                 return -1;      //no se ha encontrado el valor
